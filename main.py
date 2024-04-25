@@ -8,12 +8,12 @@ def hello():
     return render_template("index.html")
 
 
-@app.route('/')
-def about():
+@app.route("/about")
+def about_me():
     return render_template("about.html")
 
 
-@app.route('/')
+@app.route("/contact")
 def contact():
     return render_template("contact.html")
 
